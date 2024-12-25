@@ -1,0 +1,11 @@
+npm init -y
+
+create index.js
+
+npm i express   
+npx nodemon index.js
+
+setting up ejs for ejs pages   
+    npm i ejs
+    setup ejs as a middleware for view engine
+    app.set('view engine', 'ejs');
